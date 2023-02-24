@@ -123,6 +123,11 @@
 }
 
 
+.ex-7-img, .ex-8-img{
+  transition: all 1s;
+}
+
+
 /*EXERCISE 6*/
 .ex-6-img:hover{
   filter: grayscale(1);
@@ -131,26 +136,32 @@
 
 /*EXERCISE 7*/
 .ex-7-img:hover{
-  transition: 1s;
   filter: grayscale(1);
 }
 
 
 /*EXERCISE 8*/
 .ex-8-img:hover{
-  transition: 1s;
+  filter: grayscale(1);
+  border-radius: 20px;
+}
+
+
+/*EXERCISE 9*/
+.ex-9-img {
+  margin: 50px 100px;
+  width: 400px;
+  transition: all 1s;
+}
+
+.ex-9-img:hover{
   filter: grayscale(1);
   border-radius: 20px;
 }
 
 
 
-.ex-9-img {
-  margin: 50px 100px;
-  width: 400px;
-}
-
-
+/*EXERCISE 10*/
 .ex-10-icon {
   font-size: 60px;
 }
