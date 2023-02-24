@@ -189,6 +189,7 @@
 
 .ex-11-icon:hover{
   animation: ex-eleven 1.5s linear infinite; 
+  cursor: none;
 }
 
 @keyframes  ex-eleven {
@@ -221,7 +222,12 @@
   line-height: 70px;
   text-align: center;
   text-decoration: none;
+  animation-name: sqare;
+  animation-duration: 2s;
 }
+
+
+
 
 .ex-12-top-white, .ex-13-top-white {
   position: absolute;
@@ -232,6 +238,12 @@
   height: 20px;
 }
 
+
+
+
+
+
+
 .ex-12-bottom-white, .ex-13-bottom-white {
   position: absolute;
   bottom: -10px;
@@ -239,4 +251,7 @@
   background: #f5f5f5;
   width: 60px;
   height: 20px;
+  animation:scroll 3s ;
+
 }
+
