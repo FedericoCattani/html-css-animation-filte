@@ -129,6 +129,13 @@
 }
 
 
+/*EXERCISE 7*/
+.ex-7-img:hover{
+  transition: 1s;
+  filter: grayscale(1);
+}
+
+
 
 .ex-9-img {
   margin: 50px 100px;
