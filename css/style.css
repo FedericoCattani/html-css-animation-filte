@@ -209,7 +209,7 @@
 
 
 
-/*EXERCISE 12*/
+/*EXERCISE 12,13*/
 .ex-12-button, .ex-13-button {
   position: relative;
   display: block;
@@ -222,8 +222,6 @@
   line-height: 70px;
   text-align: center;
   text-decoration: none;
-  animation-name: sqare;
-  animation-duration: 2s;
 }
 
 
@@ -239,9 +237,66 @@
 }
 
 
+/*EXERCISE 12 TOP*/
+.ex-12-button:hover .ex-12-top-white {
+  animation: top-white-12 1s linear;
+}
 
 
+@keyframes top-white-12 {
+  
+  0% {
+      left: 10%;
+  }
+  
+  50% {
+      left: calc(100% - 60px);
+  }
 
+  100% {
+      left: 10%;
+  }
+}
+
+
+/*EXERCISE 13 TOP*/
+.ex-13-button:hover .ex-13-top-white {
+  animation: top-white-13 2s linear;
+}
+
+
+@keyframes top-white-13 {
+
+  0% {
+      left: 10%;
+      top: -10px;
+  }
+
+  30% {
+      left: calc(100% - 30px);
+      top: -10px;
+  }
+
+  45% {
+      left: calc(100% - 30px);
+      top: 100%;
+  }
+
+  75% {
+      left: 0;
+      top: 100%;
+  }
+
+  90% {
+      left: -15px;
+      top: -10px;
+  }
+
+  100% {
+      left: 10%;
+      top: -10px;
+  }
+}
 
 
 .ex-12-bottom-white, .ex-13-bottom-white {
@@ -255,3 +310,63 @@
 
 }
 
+
+/*EXERCISE 12 BOTTOM*/
+.ex-12-button:hover .ex-12-bottom-white {
+  animation: bottom-white-12 1s linear;
+}
+
+
+@keyframes bottom-white-12 {
+
+  0% {
+      right: 20%;
+  }
+
+  50% {
+      right: calc(100% - 60px);
+  }
+
+  100% {
+      right: 20%;
+  }
+}
+
+
+/*EXERCISE 13 BOTTOM*/
+.ex-13-button:hover .ex-13-bottom-white {
+  animation: bottom-white-13 2s linear;
+}
+
+@keyframes bottom-white-13 {
+
+  0% {
+      bottom: -10px;
+      right: 20%;
+  }
+
+  30% {
+      right: calc(100% - 30px);
+      bottom: -10px;
+  }
+
+  45% {
+      right: calc(100% - 30px);
+      bottom: 100%;
+  }
+
+  75% {
+      right: 0;
+      bottom: 100%;
+  }
+
+  90% {
+      right: -15px;
+      bottom: -10px;
+  }
+
+  100% {
+      bottom: -10px;
+      right: 20%;
+  }
+}
